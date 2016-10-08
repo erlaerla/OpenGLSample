@@ -1,0 +1,9 @@
+OutputDir=$(SolutionDir)Bin
+TempDir=$(SolutionDir)Temp\$(Configuration)\
+IncDir=..\..\Libraries\include;
+LibsDir=..\..\Libraries\libs;..\..\Bin;
+
+自定义一个类继承Framework，实现Initialize(),Unititialize(),Render()。
+程序启动的时候调用Initialize()。
+程序关闭之前调用Uninitialize()。
+渲染的时候调用Render()。
