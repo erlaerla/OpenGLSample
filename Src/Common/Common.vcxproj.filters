@@ -21,9 +21,24 @@
     <ClInclude Include="Framework.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="GL.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileLoader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Framework.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileLoader.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

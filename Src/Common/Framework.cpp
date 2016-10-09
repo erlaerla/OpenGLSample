@@ -1,6 +1,5 @@
 #define GLEW_STATIC
-#include"GLEW/glew.h"
-#include"GLFW/glfw3.h"
+#include"GL.h"
 #include"Framework.h"
 
 #pragma comment(lib, "glew32s.lib")
