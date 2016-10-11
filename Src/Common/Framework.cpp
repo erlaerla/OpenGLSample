@@ -6,6 +6,7 @@
 #pragma comment(lib, "glfw3.lib")
 #pragma comment(lib, "opengl32.lib")
 
+
 GLFWwindow* pMainWnd = 0;
 
 void KeyProc(GLFWwindow* window, int key, int scancode, int action, int mods)
@@ -14,6 +15,8 @@ void KeyProc(GLFWwindow* window, int key, int scancode, int action, int mods)
 	{
 		glfwSetWindowShouldClose(window, GL_TRUE); // ¹Ø±Õ´°¿Ú
 	}
+
+	Framework::GetSingletonPtr()->OnKeyProc(key, action);
 }
 
 static Framework* sInstance = 0;

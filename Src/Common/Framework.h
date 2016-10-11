@@ -13,6 +13,8 @@ public:
 	void	Shutdown();
 	void	Loop();
 
+	virtual void	OnKeyProc(int key, int action){}
+
 protected:
 	virtual int		Initialize() = 0;
 	virtual void	Uninitialize() = 0;

@@ -114,3 +114,8 @@ bool Shader::Link()
 
 	return true;
 }
+
+GLuint Shader::GetUniformLocation(const std::string& strName)
+{
+	return glGetUniformLocation(m_Program, strName.c_str());
+}

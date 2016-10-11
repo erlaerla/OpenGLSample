@@ -26,4 +26,5 @@ private:
 	bool	m_bLoaded;
 };
 
+
 #endif

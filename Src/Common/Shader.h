@@ -15,6 +15,8 @@ public:
 	void	Use();
 	void	UnUse();
 
+	GLuint	GetUniformLocation(const std::string& strName);
+
 private:
 	GLuint	Compile(GLenum shaderType, const char* szSrc);
 	bool	Link();
